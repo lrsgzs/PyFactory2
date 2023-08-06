@@ -995,12 +995,12 @@ def info():
     py = Label(w, text="使用Python以及ttkbootstrap制作")
     py.pack()
     fgggg = LabelFrame(w, text="联系我们")
-    f1 = Label(fgggg, text="电话：130 4984 2481")
+    f1 = Label(fgggg, text="电话：********（保护隐私未公开）")
     f1.pack()
-    f2 = Button(fgggg, text="邮箱：wry_beiyong06@outlook.com", bootstyle=(LINK, PRIMARY), cursor="hand2",
-                command=(lambda: webbrowser.open("mailto://wry_beiyong06@outlook.com")))
+    f2 = Button(fgggg, text="邮箱：********（保护隐私未公开）", bootstyle=(LINK, PRIMARY), cursor="hand2",
+                command=(lambda: webbrowser.open("about:blank")))
     f2.pack()
-    f3 = Label(fgggg, text="QQ：2148505950")
+    f3 = Label(fgggg, text="QQ：********（保护隐私未公开）")
     f3.pack()
     fgggg.pack()
     w.focus_force()
